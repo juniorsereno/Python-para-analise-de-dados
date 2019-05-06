@@ -1,0 +1,29 @@
+print('*'*20,'Python Calculator','*'*20)
+print('Selecione o número da operação desejada:')
+print('/n1 - Soma/n2 - Subtração/n3 - Multiplicação/n4 - Divisão')
+opcoes = int(input('/nDigite sua opção (1/2/3/4): '))
+
+if opcoes == 1:
+    print('/nVocê selecionou a operação de Soma.')
+    num1 = float(input('Digite o primeiro número: '))
+    num2 = float(input('Digite o segundo número: '))
+    res = num1 + num2
+    print('{} + {} = {}'.format(num1, num2, res))
+elif opcoes == 2:
+    print('/nVocê selecionou a operação de Subtração.')
+    num1 = float(input('Digite o primeiro número: '))
+    num2 = float(input('Digite o segundo número: '))
+    res = num1 - num2
+    print('{} - {} = {}'.format(num1, num2, res))
+elif opcoes == 3:
+    print('/nVocê selecionou a operação de Multiplicação.')
+    num1 = float(input('Digite o primeiro número: '))
+    num2 = float(input('Digite o segundo número: '))
+    res = num1 * num2
+    print('{} * {} = {}'.format(num1, num2, res))
+else:
+    print('/nVocê selecionou a operação de Divisão.')
+    num1 = float(input('Digite o primeiro número: '))
+    num2 = float(input('Digite o segundo número: '))
+    res = num1 / num2
+    print('{} / {} = {}'.format(num1, num2, res))
