@@ -21,9 +21,11 @@ elif opcoes == 3:
     num2 = float(input('Digite o segundo número: '))
     res = num1 * num2
     print('{} * {} = {}'.format(num1, num2, res))
-else:
+elif opcoes == 4:
     print('/nVocê selecionou a operação de Divisão.')
     num1 = float(input('Digite o primeiro número: '))
     num2 = float(input('Digite o segundo número: '))
     res = num1 / num2
     print('{} / {} = {}'.format(num1, num2, res))
+else:
+    Print('/nOpção invalida.')
